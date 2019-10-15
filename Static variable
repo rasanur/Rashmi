@@ -1,0 +1,32 @@
+public class Staticvariable 
+{
+
+	//static variable(always inside class and should use static keyword)
+	
+	static int a=10;
+	static boolean b;
+	
+	
+  /*float f; 		one line declaration not possible
+    f=10.20;			one line initialization not possible */
+	
+	
+	
+	public static void main(String[] args) 
+	{
+	
+	//calling static variable(we can call in 3 ways)
+		
+	System.out.println(a);		//calling directly
+	
+	
+	Staticvariable s=new Staticvariable();		//creating object
+	
+	System.out.println(s.b);					//calling using object
+	
+	
+	System.out.println(Staticvariable.a); 		//calling using class
+	
+}
+	
+}
