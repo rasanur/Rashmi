@@ -1,0 +1,30 @@
+public class Staticmethod 
+{
+
+	//static method (should use static keyword)
+	
+	static void m1()
+	{
+		float f=100.20f;
+		boolean b=true;
+		System.out.println(f);
+		System.out.println(b);
+		System.out.println("I love testing");
+	
+	}
+		
+ public static void main(String[] args) 
+ 
+ {
+	//calling static method(can call in 3 ways)
+	 
+	 	m1();		//calling directly
+	 	
+	 	Staticmethod s=new Staticmethod();	//creating object
+	 	
+	 	s.m1();								//calling using object
+	 	
+	 	Staticmethod.m1();					//calling using class name 		 
+}
+
+}
