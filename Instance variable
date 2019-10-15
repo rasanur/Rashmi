@@ -1,0 +1,23 @@
+public class Instancevariable 
+{
+	
+	// instance variable(this will be always inside class)
+	
+		boolean b;				//only declaration possible and it will give default value
+		double d=100.20;		//declaration and initialization(one line declaration and one line initialization is not possible)
+		
+		
+		public static void main(String[] args) 
+		{
+		
+			//calling instance variable(we can call only using object)
+			
+			Instancevariable a=new Instancevariable();
+			
+			System.out.println(a.b);
+			
+			System.out.println(a.d);
+			
+		}
+		
+}
