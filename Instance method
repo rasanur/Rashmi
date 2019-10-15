@@ -1,0 +1,20 @@
+public class Instancemethod 
+{
+
+	void m1() 		//Instance method	
+	  {
+		 int a=100;
+		 System.out.println(a);
+	     System.out.println("Java is not easy language");	
+	 }
+
+	public static void main(String[] args) 
+	{
+		//calling Instance method 
+		
+		Instancemethod i=new Instancemethod();		//creating object
+		i.m1();										//calling using object
+			
+	}
+
+}
