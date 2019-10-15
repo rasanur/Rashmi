@@ -1,0 +1,21 @@
+public class Localvariable
+
+{
+	public static void main(String[] args)
+	{
+		//local variable
+		int a=100;		//initialization and declaration
+		int b; 			//declaration
+		b=10;			//initialization
+		
+		//boolean b; (only declaration is not possible.
+		
+		System.out.println(a);			//calling local variable directly
+		System.out.println(b);
+		
+		/* local variables can call only directly and it will be always 
+		 * method(main or any method)*/
+		
+	}
+}
+
