@@ -1,0 +1,33 @@
+public class Palindrome 
+{
+//sample program to check whether a no is Palindrome or not?
+	
+	public static void main(String[] args)
+	{
+		
+	int r, sum=0, temp;
+	
+	int n=121;	//no to check whether palindrome or not
+	
+	temp=n;
+	
+	while(n>0)
+	{
+		
+	r=n%10;
+	
+	sum=(sum*10)+r;
+	
+	n=n/10;
+	}
+	
+	if(temp==sum)
+	{
+		System.out.println("Given no is palindrome");
+	}
+	else
+	
+		System.out.println("it is not palindrome");
+	
+}
+}
